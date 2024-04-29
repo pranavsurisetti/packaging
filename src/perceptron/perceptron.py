@@ -47,6 +47,7 @@ class Perceptron:
             self.weights = self.weights + self.eta * np.dot(X_with_bias.T, self.error)
             print(f"updated weights after epoch: {epoch + 1}/{self.epochs}: \n{self.weights}")
             print("##"*10)
+            print("sadada")
 
 
     def predict(self, X):
